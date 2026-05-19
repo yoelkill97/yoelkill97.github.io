@@ -6,21 +6,21 @@ import streakon3 from "../../../assets/images/projects/streakon/streakon-3.webp"
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "StreakOn",
+  title: "MoneyPath AI",
   theme: "dark",
-  tags: ["next", "node", "postgresql", "redis"],
+  tags: ["flutter", "dart", "openai"],
   videoBorder: false,
-  live: "https://www.streakon.app",
+  live: "",
   description:
-    "StreakOn unterstützt kleine Gruppen dabei, durch gemeinsame Streaks und einfache Check-ins bei täglichen Gewohnheiten dranzubleiben.<br/><br/>Die App wurde mit Fokus auf geringe Interaktionshürden, mobile Nutzung und leichte soziale Funktionen entwickelt – mit Next.js, Node.js, PostgreSQL und Redis.",
+    "MoneyPath AI is a smart mobile application designed to track and manage personal expenses using OpenAI API integrations.<br/><br/>Key features include intuitive expense categorization from conversational inputs, interactive charts built with Flutter's Fl_chart package, and clean MVVM architecture to separate UI layout from business logic layers.",
   components: [
     {
       type: "media",
       props: {
         type: "image",
         src: streakon0,
-        alt: "Solo- und Gruppen-Streaks",
-        caption: "Solo- und Gruppen-Streaks",
+        alt: "AI Chat Interface for Expense Input",
+        caption: "AI Chat Interface for Expense Input",
       },
     },
     {
@@ -28,8 +28,8 @@ export default {
       props: {
         type: "image",
         src: streakon1,
-        alt: "Streak-Fortschritt",
-        caption: "Streak-Fortschritt",
+        alt: "Interactive Financial Graphs",
+        caption: "Interactive Financial Graphs",
       },
     },
     {
@@ -37,8 +37,8 @@ export default {
       props: {
         type: "image",
         src: streakon2,
-        alt: "Freunde anfeuern",
-        caption: "Freunde anfeuern",
+        alt: "Expense Categorization",
+        caption: "Expense Categorization",
       },
     },
     {
@@ -46,8 +46,8 @@ export default {
       props: {
         type: "image",
         src: streakon3,
-        alt: "Einladungs-Flow",
-        caption: "Einladungs-Flow",
+        alt: "Personalized Insights Panel",
+        caption: "Personalized Insights Panel",
       },
     },
   ],

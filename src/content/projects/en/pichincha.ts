@@ -10,20 +10,20 @@ import cubewar5 from "../../../assets/images/projects/cubewar/cubewar-5.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "CubeWar",
+  title: "Banco Pichincha Mobile",
   theme: "dark",
-  tags: ["three", "node", "websockets", "redis"],
+  tags: ["kotlin", "android", "architecture"],
   videoBorder: false,
-  live: "https://cubewar.io",
+  live: "",
   description:
-    "CubeWar is a browser-based multiplayer game where players control cube avatars in fast-paced strategic battles.<br/><br/>I built the full stack myself, including the game engine, the client-side timeline system, and real-time networking with Redis-based matchmaking for smooth, high-concurrency gameplay.",
+    "Refactoring and modernization of the Android application for Banco Pichincha, migrating the codebase from Java to Kotlin and improving security standards.<br/><br/>Redesigned crucial user flows such as fund transfers and bill payments. Implemented high-level security controls including mobile SSL pinning, code encryption, and integration of secure authentication APIs (DetectID, Appdome, Insolutions).",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoCubeWar,
-        caption: "Gameplay",
+        caption: "Application Walkthrough",
       },
     },
     {
@@ -31,8 +31,8 @@ export default {
       props: {
         type: "image",
         src: cubewar0,
-        alt: "Tutorial",
-        caption: "Tutorial",
+        alt: "Secure Login & Biometrics Flow",
+        caption: "Secure Login & Biometrics Flow",
       },
     },
     {
@@ -40,8 +40,8 @@ export default {
       props: {
         type: "image",
         src: cubewar1,
-        alt: "Maps Themes",
-        caption: "Map Themes",
+        alt: "Fund Transfers & Contact-Based Pay",
+        caption: "Fund Transfers & Contact-Based Pay",
       },
     },
     {
@@ -49,8 +49,8 @@ export default {
       props: {
         type: "image",
         src: cubewar2,
-        alt: "Authentication",
-        caption: "Authentication",
+        alt: "Bill Payments Screen",
+        caption: "Bill Payments Screen",
       },
     },
     {
@@ -58,8 +58,8 @@ export default {
       props: {
         type: "image",
         src: cubewar3,
-        alt: "Responsive Design",
-        caption: "Responsive Design",
+        alt: "Responsive Banking UI",
+        caption: "Responsive Banking UI",
       },
     },
     {
@@ -67,8 +67,8 @@ export default {
       props: {
         type: "image",
         src: cubewar4,
-        alt: "Multiple Gamemodes",
-        caption: "Multiple Gamemodes",
+        alt: "Digital Piggy Bank (Alcancía Digital)",
+        caption: "Digital Piggy Bank (Alcancía Digital)",
       },
     },
     {
@@ -76,8 +76,8 @@ export default {
       props: {
         type: "image",
         src: cubewar5,
-        alt: "Party System",
-        caption: "Party System",
+        alt: "Security Auditing and Controls",
+        caption: "Security Auditing and Controls",
       },
     },
   ],

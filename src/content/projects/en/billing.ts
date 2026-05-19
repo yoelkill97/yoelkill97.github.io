@@ -9,20 +9,19 @@ import sharkie4 from "../../../assets/images/projects/sharkie/sharkie-4.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Sharkie",
+  title: "Electronic Billing Platform",
   theme: "light",
-  tags: ["javascript", "html", "css"],
-  live: "https://sharkie.david-hckh.com/",
-  source: "https://github.com/davidhckh/sharkie-game",
+  tags: ["spring", "android", "laravel", "mysql"],
+  live: "",
   description:
-    "Sharkie ist ein 2D-Unterwasser-Abenteuerspiel, entwickelt mit Vanilla JavaScript und HTML5 Canvas.<br/><br/>Das Projekt basiert auf objektorientierten Programmierprinzipien und nutzt eigene Klassen für Spielfiguren, Gegner und Spielsysteme, ergänzt durch flüssige Animationen, Kampfsysteme und mehrschichtige Parallax-Hintergründe.",
+    "An enterprise-level electronic billing system and fleet tracking platform developed using a FullStack architecture.<br/><br/>Designed and implemented robust backend web APIs with Java Spring Boot and PHP Laravel. Built corresponding mobile applications for dispatchers using Android SDK (MVP pattern), integrating third-party APIs for geolocalized vehicle tracking, map routing, and electronic payment gateways.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoSharkie,
-        caption: "Gameplay",
+        caption: "System Demo",
       },
     },
     {
@@ -30,8 +29,8 @@ export default {
       props: {
         type: "image",
         src: sharkie0,
-        alt: "Spielfiguren und Karten-Design",
-        caption: "Spielfiguren und Karten-Design",
+        alt: "Client Billing Directory Layout",
+        caption: "Client Billing Directory Layout",
       },
     },
     {
@@ -39,8 +38,8 @@ export default {
       props: {
         type: "image",
         src: sharkie1,
-        alt: "Boss-Kampf",
-        caption: "Boss-Kampf",
+        alt: "Invoice Generation Screen",
+        caption: "Invoice Generation Screen",
       },
     },
     {
@@ -48,8 +47,8 @@ export default {
       props: {
         type: "image",
         src: sharkie2,
-        alt: "Mission",
-        caption: "Mission",
+        alt: "Fleet Tracking Live Maps",
+        caption: "Fleet Tracking Live Maps",
       },
     },
     {
@@ -57,8 +56,8 @@ export default {
       props: {
         type: "image",
         src: sharkie3,
-        alt: "Sieg-Screen",
-        caption: "Sieg-Screen",
+        alt: "Successful Transaction Panel",
+        caption: "Successful Transaction Panel",
       },
     },
     {
@@ -66,8 +65,8 @@ export default {
       props: {
         type: "image",
         src: sharkie4,
-        alt: "Todes-Screen",
-        caption: "Todes-Screen",
+        alt: "Backend Error Logs & Auditing",
+        caption: "Backend Error Logs & Auditing",
       },
     },
   ],

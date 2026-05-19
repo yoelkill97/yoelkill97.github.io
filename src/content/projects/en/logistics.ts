@@ -10,19 +10,19 @@ import quibbo5 from "../../../assets/images/projects/quibbo/quibbo-5.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Quibbo",
+  title: "Logistics Optimization App",
   theme: "light",
-  tags: ["three", "node", "kubernetes", "redis", "postgresql"],
+  tags: ["kotlin", "android", "architecture"],
   videoBorder: true,
   description:
-    "Quibbo is a platform for fast, round-based multiplayer games. It brings together matchmaking, customizable 3D avatars, and account integration with ranked rewards.<br/><br/>The project started as a technical experiment and grew into a scalable system for testing new game ideas.",
+    "Logistics tracking and routing optimization app developed under NTT Data for complex enterprise client operations.<br/><br/>Built using Kotlin and Android SDK with modern architectural components. Designed and developed custom modules, introduced Kotlin Coroutines for asynchronous work, and leveraged Koin for dependency injection. Collaborated in a SCRUM team, reviewing pull requests and managing a sub-team of developers.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoQuibbo,
-        caption: "User Experience",
+        caption: "Dispatcher Dashboard",
       },
     },
     {
@@ -30,8 +30,8 @@ export default {
       props: {
         type: "image",
         src: quibbo0,
-        alt: "Avatar Creator",
-        caption: "Avatar Creator",
+        alt: "Driver Profile & Vehicle Config",
+        caption: "Driver Profile & Vehicle Config",
       },
     },
     {
@@ -39,8 +39,8 @@ export default {
       props: {
         type: "image",
         src: quibbo1,
-        alt: "Multiplayer Tic-Tac-Toe",
-        caption: "Multiplayer Tic-Tac-Toe",
+        alt: "Real-time Route Mapping",
+        caption: "Real-time Route Mapping",
       },
     },
     {
@@ -48,8 +48,8 @@ export default {
       props: {
         type: "image",
         src: quibbo2,
-        alt: "Multiple Mini-Games",
-        caption: "Multiple Mini-Games",
+        alt: "Task Scheduling Modules",
+        caption: "Task Scheduling Modules",
       },
     },
     {
@@ -57,8 +57,8 @@ export default {
       props: {
         type: "image",
         src: quibbo3,
-        alt: "Avatar Variations",
-        caption: "Avatar Variations",
+        alt: "Delivery Status Variations",
+        caption: "Delivery Status Variations",
       },
     },
     {
@@ -66,8 +66,8 @@ export default {
       props: {
         type: "image",
         src: quibbo4,
-        alt: "Responsive Design",
-        caption: "Responsive Design",
+        alt: "Tablet and Mobile Layouts",
+        caption: "Tablet and Mobile Layouts",
       },
     },
     {
@@ -75,8 +75,8 @@ export default {
       props: {
         type: "image",
         src: quibbo5,
-        alt: "Dark Mode",
-        caption: "Dark Mode",
+        alt: "Dark Theme for Night Shifts",
+        caption: "Dark Theme for Night Shifts",
       },
     },
   ],

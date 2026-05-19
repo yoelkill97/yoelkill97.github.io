@@ -10,19 +10,19 @@ import quibbo5 from "../../../assets/images/projects/quibbo/quibbo-5.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Quibbo",
+  title: "Optimización de Logística",
   theme: "light",
-  tags: ["three", "node", "kubernetes", "redis", "postgresql"],
+  tags: ["kotlin", "android", "architecture"],
   videoBorder: true,
   description:
-    "Quibbo ist eine Plattform für schnelle, rundenbasierte Multiplayer-Spiele. Sie verbindet Matchmaking, anpassbare 3D-Avatare und Account-Integration mit einem Rangsystem auf ELO-Basis.<br/><br/>Das Projekt begann als technisches Experiment und entwickelte sich zu einem skalierbaren System, um neue Spielideen auszuprobieren.",
+    "Aplicación de rastreo y optimización de rutas logísticas desarrollada bajo NTT Data para la gestión de operaciones de clientes corporativos.<br/><br/>Construida en Kotlin y Android SDK con componentes de arquitectura modernos. Diseño y desarrollo de nuevos módulos, introducción de corutinas de Kotlin para procesos asíncronos y Koin para inyección de dependencias. Liderazgo de un equipo de 3 desarrolladores y colaboración ágil SCRUM.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoQuibbo,
-        caption: "Benutzeroberfläche",
+        caption: "Panel de control del despachador",
       },
     },
     {
@@ -30,8 +30,8 @@ export default {
       props: {
         type: "image",
         src: quibbo0,
-        alt: "Avatar Ersteller",
-        caption: "Avatar Ersteller",
+        alt: "Configuración de perfil de conductor y vehículo",
+        caption: "Configuración de perfil de conductor y vehículo",
       },
     },
     {
@@ -39,8 +39,8 @@ export default {
       props: {
         type: "image",
         src: quibbo1,
-        alt: "Mehrspieler Tic-Tac-Toe",
-        caption: "Mehrspieler Tic-Tac-Toe",
+        alt: "Mapeo de rutas en tiempo real",
+        caption: "Mapeo de rutas en tiempo real",
       },
     },
     {
@@ -48,8 +48,8 @@ export default {
       props: {
         type: "image",
         src: quibbo2,
-        alt: "Verschiedene Minispiele",
-        caption: "Verschiedene Minispiele",
+        alt: "Módulos de programación de tareas",
+        caption: "Módulos de programación de tareas",
       },
     },
     {
@@ -57,8 +57,8 @@ export default {
       props: {
         type: "image",
         src: quibbo3,
-        alt: "Avatar Variationen",
-        caption: "Avatar Variationen",
+        alt: "Estados y variaciones de entrega",
+        caption: "Estados y variaciones de entrega",
       },
     },
     {
@@ -66,8 +66,8 @@ export default {
       props: {
         type: "image",
         src: quibbo4,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Diseño para tabletas y móviles",
+        caption: "Diseño para tabletas y móviles",
       },
     },
     {
@@ -75,8 +75,8 @@ export default {
       props: {
         type: "image",
         src: quibbo5,
-        alt: "Dunkles Design",
-        caption: "Dunkles Design",
+        alt: "Tema oscuro para turnos nocturnos",
+        caption: "Tema oscuro para turnos nocturnos",
       },
     },
   ],

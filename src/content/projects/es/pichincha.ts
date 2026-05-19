@@ -10,20 +10,20 @@ import cubewar5 from "../../../assets/images/projects/cubewar/cubewar-5.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "CubeWar",
+  title: "Banco Pichincha Móvil",
   theme: "dark",
-  tags: ["three", "node", "websockets", "redis"],
+  tags: ["kotlin", "android", "architecture"],
   videoBorder: false,
-  live: "https://cubewar.io",
+  live: "",
   description:
-    "CubeWar ist ein browserbasiertes Multiplayer-Spiel, in dem Spieler in schnellen, strategischen Kämpfen gegeneinander antreten.<br/><br/>Ich habe den gesamten Stack selbst entwickelt, inklusive der Spiel-Engine, des Client-Timeline-Systems und des Echtzeit-Netzwerks mit Redis-basiertem Matchmaking für flüssiges Gameplay.",
+    "Refactorización y modernización de la aplicación móvil de Banco Pichincha, migrando el código fuente de Java a Kotlin y reforzando los estándares de seguridad.<br/><br/>Rediseño de flujos de usuario clave como transferencias monetarias y pago de servicios. Implementación de controles de seguridad avanzados como certificate pinning, cifrado de código local e integración de APIs de autenticación segura (DetectID, Appdome, Insolutions).",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoCubeWar,
-        caption: "Gameplay",
+        caption: "Demostración de la aplicación",
       },
     },
     {
@@ -31,8 +31,8 @@ export default {
       props: {
         type: "image",
         src: cubewar0,
-        alt: "Tutorial",
-        caption: "Tutorial",
+        alt: "Inicio de sesión seguro y biometría",
+        caption: "Inicio de sesión seguro y biometría",
       },
     },
     {
@@ -40,8 +40,8 @@ export default {
       props: {
         type: "image",
         src: cubewar1,
-        alt: "Karten Themen",
-        caption: "Karten Themen",
+        alt: "Transferencias y transferencias basadas en contactos",
+        caption: "Transferencias y transferencias basadas en contactos",
       },
     },
     {
@@ -49,8 +49,8 @@ export default {
       props: {
         type: "image",
         src: cubewar2,
-        alt: "Authentifizierung",
-        caption: "Authentifizierung",
+        alt: "Pantalla de pago de servicios",
+        caption: "Pantalla de pago de servicios",
       },
     },
     {
@@ -58,8 +58,8 @@ export default {
       props: {
         type: "image",
         src: cubewar3,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Diseño responsivo de banca",
+        caption: "Diseño responsivo de banca",
       },
     },
     {
@@ -67,8 +67,8 @@ export default {
       props: {
         type: "image",
         src: cubewar4,
-        alt: "Mehrere Spielmodi",
-        caption: "Mehrere Spielmodi",
+        alt: "Módulo de Alcancía Digital",
+        caption: "Módulo de Alcancía Digital",
       },
     },
     {
@@ -76,8 +76,8 @@ export default {
       props: {
         type: "image",
         src: cubewar5,
-        alt: "Party-System",
-        caption: "Party-System",
+        alt: "Auditoría de seguridad y controles de OWASP",
+        caption: "Auditoría de seguridad y controles de OWASP",
       },
     },
   ],

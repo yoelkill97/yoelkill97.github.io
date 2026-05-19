@@ -1,7 +1,7 @@
 import { Howl } from "howler";
 
-import trackLuci from "../../../assets/music/luci.ogg";
-import trackAbout from "../../../assets/music/ambient-pads.ogg";
+import trackLuci from "../../../assets/music/lofi-1.mp3";
+import trackAbout from "../../../assets/music/ambient-lofi.mp3";
 
 import type { MusicTrack } from "../types";
 

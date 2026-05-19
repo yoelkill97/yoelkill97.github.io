@@ -8,21 +8,19 @@ import pokedex3 from "../../../assets/images/projects/pokedex/pokedex-3.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Pokédex",
+  title: "Qunay Mobile UI Library",
   theme: "light",
-  tags: ["javascript", "html", "css"],
-  live: "https://pokedex.david-hckh.com/",
-  source: "https://github.com/davidhckh/pokedex",
-  videoBorder: true,
+  tags: ["compose", "flutter", "android"],
+  live: "",
   description:
-    "Eines meiner ersten Webprojekte, um Kernkonzepte der Webentwicklung zu üben. Der Pokédex ist Open Source, damit andere Entwickler auf dieselbe Weise lernen können wie ich.<br/><br/>Er interagiert außerdem mit einer öffentlichen API, um zusätzliche Erfahrung zu sammeln.",
+    "Interfaces móviles adaptativas y de alto rendimiento diseñadas e implementadas para QUNAY, siguiendo las especificaciones de Material Design.<br/><br/>Desarrollo de sistemas de componentes reutilizables en Flutter y vistas avanzadas en Jetpack Compose en Android nativo. Refactorización de código heredado en Android nativo para migrarlo a Flutter, mejorando la mantenibilidad general y la consistencia visual.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoPokedex,
-        caption: "Pokédex Anwendung",
+        caption: "Demostración de interacción de UI",
       },
     },
     {
@@ -30,8 +28,8 @@ export default {
       props: {
         type: "image",
         src: pokedex0,
-        alt: "Standardansicht",
-        caption: "Standardansicht",
+        alt: "Vista principal de componentes",
+        caption: "Vista principal de componentes",
       },
     },
     {
@@ -39,8 +37,8 @@ export default {
       props: {
         type: "image",
         src: pokedex1,
-        alt: "Suchfunktion",
-        caption: "Suchfunktion",
+        alt: "Interacciones de búsqueda y filtrado",
+        caption: "Interacciones de búsqueda y filtrado",
       },
     },
     {
@@ -48,8 +46,8 @@ export default {
       props: {
         type: "image",
         src: pokedex2,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Adaptabilidad en múltiples pantallas",
+        caption: "Adaptabilidad en múltiples pantallas",
       },
     },
     {
@@ -57,8 +55,8 @@ export default {
       props: {
         type: "image",
         src: pokedex3,
-        alt: "Lazy-Loading",
-        caption: "Lazy-Loading",
+        alt: "Optimización de listas de carga perezosa",
+        caption: "Optimización de listas de carga perezosa",
       },
     },
   ],

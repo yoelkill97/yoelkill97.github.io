@@ -12,7 +12,18 @@ export type TagVariant =
   | "kubernetes"
   | "postgresql"
   | "ogl"
-  | "glsl";
+  | "glsl"
+  | "kotlin"
+  | "android"
+  | "compose"
+  | "flutter"
+  | "dart"
+  | "spring"
+  | "php"
+  | "laravel"
+  | "mysql"
+  | "openai"
+  | "architecture";
 
 export const tagLabels = {
   three: "Three.js",
@@ -29,4 +40,15 @@ export const tagLabels = {
   postgresql: "PostgreSQL",
   ogl: "OGL.js",
   glsl: "GLSL",
+  kotlin: "Kotlin",
+  android: "Android SDK",
+  compose: "Jetpack Compose",
+  flutter: "Flutter",
+  dart: "Dart",
+  spring: "Spring Boot",
+  php: "PHP",
+  laravel: "Laravel",
+  mysql: "MySQL",
+  openai: "OpenAI",
+  architecture: "Clean Arch",
 } as const satisfies Record<TagVariant, string>;

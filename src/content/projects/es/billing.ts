@@ -9,20 +9,19 @@ import sharkie4 from "../../../assets/images/projects/sharkie/sharkie-4.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Sharkie",
+  title: "Sistema de Facturación Electrónica",
   theme: "light",
-  tags: ["javascript", "html", "css"],
-  live: "https://sharkie.david-hckh.com/",
-  source: "https://github.com/davidhckh/sharkie-game",
+  tags: ["spring", "android", "laravel", "mysql"],
+  live: "",
   description:
-    "Sharkie is a 2D underwater adventure game built with vanilla JavaScript and HTML5 Canvas.<br/><br/>The project is structured around object-oriented programming principles, featuring custom classes for entities, enemies, and game systems, alongside smooth animations, combat mechanics, and layered parallax backgrounds.",
+    "Sistema de facturación electrónica a nivel empresarial y plataforma de geolocalización de flotas desarrollados bajo una arquitectura FullStack.<br/><br/>Diseño y desarrollo de robustas APIs web de backend con Java Spring Boot y PHP Laravel. Construcción de aplicaciones móviles cliente correspondientes mediante Android SDK (patrón MVP), integrando geolocalización de flotas en tiempo real, mapas y pasarelas de pago electrónico.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoSharkie,
-        caption: "Gameplay",
+        caption: "Demostración del sistema",
       },
     },
     {
@@ -30,8 +29,8 @@ export default {
       props: {
         type: "image",
         src: sharkie0,
-        alt: "Entities And Map Design",
-        caption: "Entities And Map Design",
+        alt: "Diseño del directorio de facturación de clientes",
+        caption: "Diseño del directorio de facturación de clientes",
       },
     },
     {
@@ -39,8 +38,8 @@ export default {
       props: {
         type: "image",
         src: sharkie1,
-        alt: "Boss Fight",
-        caption: "Boss Fight",
+        alt: "Pantalla de generación de facturas",
+        caption: "Pantalla de generación de facturas",
       },
     },
     {
@@ -48,8 +47,8 @@ export default {
       props: {
         type: "image",
         src: sharkie2,
-        alt: "Mission",
-        caption: "Mission",
+        alt: "Mapa en vivo para monitoreo de flotas",
+        caption: "Mapa en vivo para monitoreo de flotas",
       },
     },
     {
@@ -57,8 +56,8 @@ export default {
       props: {
         type: "image",
         src: sharkie3,
-        alt: "Victory Screen",
-        caption: "Victory Screen",
+        alt: "Panel de transacción exitosa",
+        caption: "Panel de transacción exitosa",
       },
     },
     {
@@ -66,8 +65,8 @@ export default {
       props: {
         type: "image",
         src: sharkie4,
-        alt: "Death Screen",
-        caption: "Death Screen",
+        alt: "Registros de errores del backend y auditoría",
+        caption: "Registros de errores del backend y auditoría",
       },
     },
   ],
